@@ -5,6 +5,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh'
  * @type { import('vite').UserConfig }
  */
 export default {
+  base: "/Slice-the-Pie/",
   plugins: [reactRefresh()],
   server: {
     hmr: {
